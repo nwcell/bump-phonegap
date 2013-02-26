@@ -11,9 +11,7 @@
         var USER_ID = "5";
         result=  window.bump(USER_ID, function(result) {
                         alert('bump init');
-                            window.bumpable('NO', function(result) {
-                            console.log('bumpable set to no');
-                        });
+                          
                   });
 
 
@@ -28,7 +26,18 @@
        // Output.innerHTML = Output.innerHTML +'<br>'+text;
     }
     
-     
+        function Bumpable(){
+            window.bumpable('YES', function(result) {
+                            console.log('bumpable set to YES');
+                            });
+            
+        }
+        
+        function NotBumpable(){
+            window.bumpable('NO', function(result) {
+                            console.log('bumpable set to NO');
+                            });
+        }
     </script>        
 </head>
 <body>
