@@ -1,873 +1,0 @@
-TCheers
-v5
-r1
-cCheck dependencies
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/Cheers.app/ResourceRules.plist
-cProcessInfoPlistFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Info.plist Cheers/Cheers-Info.plist
-cProcessPCH /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch.pth Cheers/Cheers-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/main.o /Users/skynet/Documents/CheersMain/Cheers/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/AppDelegate.o /Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/MainViewController.o /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.o /Users/skynet/Documents/CheersMain/Cheers/Plugins/Cheers.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers normal armv7
-cGenerateDSYMFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app.dSYM /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers
-cCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/InfoPlist.strings Cheers/en.lproj/InfoPlist.strings
-cCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/Localizable.strings Cheers/Resources/en.lproj/Localizable.strings
-cCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/es.lproj/Localizable.strings Cheers/Resources/es.lproj/Localizable.strings
-cCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/de.lproj/Localizable.strings Cheers/Resources/de.lproj/Localizable.strings
-cCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/se.lproj/Localizable.strings Cheers/Resources/se.lproj/Localizable.strings
-cCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon.png Cheers/Resources/icons/icon.png
-cCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon@2x.png Cheers/Resources/icons/icon@2x.png
-cCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon-72.png Cheers/Resources/icons/icon-72.png
-cCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default~iphone.png Cheers/Resources/splash/Default~iphone.png
-cCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default@2x~iphone.png Cheers/Resources/splash/Default@2x~iphone.png
-cCpResource Cheers/Resources/Capture.bundle DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Capture.bundle
-cCopyPlistFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cordova.plist Cheers/Cordova.plist
-cCompileXIB /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.xib
-cCpResource www DerivedData/Build/Products/Debug-iphoneos/Cheers.app/www
-cCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default-568h@2x.png Default-568h@2x.png
-cGenerateDSYMFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app.dSYM /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers
-cPhaseScriptExecution "Run Script" /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Script-3008EF731592A3BF000B2E69.sh
-cProcessProductPackaging "/Users/skynet/Library/MobileDevice/Provisioning Profiles/10BC7032-29AD-4617-8DB9-DAAE3FC2E04F.mobileprovision" /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/embedded.mobileprovision
-cProcessProductPackaging "/Users/skynet/Library/MobileDevice/Provisioning Profiles/10BC7032-29AD-4617-8DB9-DAAE3FC2E04F.mobileprovision" /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/embedded.mobileprovision
-cTouch /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.xcent
-cCodeSign /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
-c00000000503C83D40000000000000132
-t1346143188
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
-c0000000050836E8E0000000000000094
-t1350790798
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
-c0000000050836E8E0000000000000096
-t1350790798
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c0000000050836E90000000000036C800
-t1350790800
-s3590144
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c0000000050836E8F000000000014A1D0
-t1350790799
-s1352144
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
-c0000000050836E8F00000000002AC100
-t1350790799
-s2801920
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000050836E9000000000006ABBE0
-t1350790800
-s6994912
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c0000000050836E9000000000002C74D0
-t1350790800
-s2913488
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c0000000050836E900000000000322740
-t1350790800
-s3286848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c0000000050836E900000000000114570
-t1350790800
-s1131888
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c0000000050836E9000000000001692A0
-t1350790800
-s1479328
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c0000000050836E920000000000629C80
-t1350790802
-s6462592
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c0000000050836E92000000000056CC90
-t1350790802
-s5688464
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c0000000050836E92000000000012C210
-t1350790802
-s1229328
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c0000000050836E930000000000359720
-t1350790803
-s3512096
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c0000000050836E9300000000000CAF00
-t1350790803
-s831232
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c0000000050836E9600000000011BA850
-t1350790806
-s18589776
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Cordova
-c0000000050841E9B00000000001CE7CC
-t1350835867
-s1894348
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/CDVCommandDelegate.h
-c0000000050841E9B0000000000000455
-t1350835867
-s1109
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/CDVCordovaView.h
-c0000000050841E9B0000000000000357
-t1350835867
-s855
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/CDVInvokedUrlCommand.h
-c0000000050841E9B00000000000004CA
-t1350835867
-s1226
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/CDVPlugin.h
-c0000000050841E9B0000000000000B0E
-t1350835867
-s2830
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/CDVPluginResult.h
-c0000000050841E9B000000000000097E
-t1350835867
-s2430
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/CDVURLProtocol.h
-c0000000050841E9B00000000000004B1
-t1350835867
-s1201
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/CDVViewController.h
-c0000000050841E9B00000000000009A9
-t1350835867
-s2473
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/CDVWhitelist.h
-c0000000050841E9B00000000000004B0
-t1350835867
-s1200
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/JSONKit.h
-c0000000050841E9B0000000000002EA2
-t1350835867
-s11938
-
-N/Users/Shared/Cordova/Frameworks/Cordova.framework/Headers/NSMutableArray+QueueAdditions.h
-c0000000050841E9B0000000000000419
-t1350835867
-s1049
-
-N/Users/skynet/Documents/CheersMain/Cheers/../../libBump/BumpClient.h
-c000000004F991626000000000000070E
-t1335432742
-s1806
-
-N/Users/skynet/Documents/CheersMain/Cheers/../../libBump/libBump.a
-c000000004F99162600000000015F9AAC
-t1335432742
-s23042732
-
-N/Users/skynet/Documents/CheersMain/Cheers/BumpApi.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/skynet/Documents/CheersMain/Cheers/BumpApi.m
-c0000000050875D400000000000000826
-t1351048512
-s2086
-
-N/Users/skynet/Documents/CheersMain/Cheers/Cheers-Prefix.pch
-c000000005087249900000000000003AC
-t1351034009
-s940
-
-N/Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.h
-c000000005087249900000000000005F9
-t1351034009
-s1529
-
-N/Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m
-c00000000508724990000000000001384
-t1351034009
-s4996
-
-N/Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.h
-c0000000050872499000000000000044A
-t1351034009
-s1098
-
-N/Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m
-c00000000508724990000000000000F3E
-t1351034009
-s3902
-
-N/Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.xib
-c00000000508724980000000000001759
-t1351034008
-s5977
-
-N/Users/skynet/Documents/CheersMain/Cheers/Cordova.plist
-c0000000050876D3D000000000000062A
-t1351052605
-s1578
-
-N/Users/skynet/Documents/CheersMain/Cheers/Plugins/Cheers.h
-c0000000050876CE50000000000000097
-t1351052517
-s151
-
-N/Users/skynet/Documents/CheersMain/Cheers/Plugins/Cheers.m
-c0000000050876E220000000000000B81
-t1351052834
-s2945
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/Capture.bundle
-c000000005087249800000000000002EC
-t1351034008
-s748
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/de.lproj/Localizable.strings
-c00000000508724980000000000000485
-t1351034008
-s1157
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/en.lproj/Localizable.strings
-c00000000508724980000000000000470
-t1351034008
-s1136
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/es.lproj/Localizable.strings
-c0000000050872498000000000000047D
-t1351034008
-s1149
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/icons/icon-72.png
-c00000000508724980000000000001350
-t1351034008
-s4944
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/icons/icon.png
-c00000000508724980000000000000F3E
-t1351034008
-s3902
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/icons/icon@2x.png
-c00000000508724980000000000001EBD
-t1351034008
-s7869
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/se.lproj/Localizable.strings
-c00000000508724980000000000000471
-t1351034008
-s1137
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/splash/Default@2x~iphone.png
-c00000000508724980000000000055981
-t1351034008
-s350593
-
-N/Users/skynet/Documents/CheersMain/Cheers/Resources/splash/Default~iphone.png
-c00000000508724980000000000016EC9
-t1351034008
-s93897
-
-N/Users/skynet/Documents/CheersMain/Cheers/en.lproj/InfoPlist.strings
-c00000000508724980000000000000349
-t1351034008
-s841
-
-N/Users/skynet/Documents/CheersMain/Cheers/main.m
-c00000000508724990000000000000480
-t1351034009
-s1152
-
-N/Users/skynet/Documents/CheersMain/Default-568h@2x.png
-c0000000050660F4200000000000048A2
-t1348865858
-s18594
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.xcent
-t1351034190
-s416
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/AppDelegate.o
-t1351034150
-s98320
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/BumpApi-F7B7556AFCC154B.o
-t1351052558
-s78900
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers
-t1351034152
-s350320
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.LinkFileList
-c0000000050876E270000000000000237
-t1351052839
-s567
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.o
-t1351052839
-s82844
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/MainViewController.o
-t1351034150
-s74048
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/main.o
-t1351034149
-s4188
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/AppDelegate.o
-t1351034150
-s98320
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/Cheers
-t2
-s0
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/Cheers.LinkFileList
-c000000005087252000000000000001B0
-t1351034144
-s432
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/MainViewController.o
-t1351034153
-s74048
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/main.o
-t1351034149
-s4188
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Script-3008EF731592A3BF000B2E69.sh
-c0000000050872520000000000000007B
-t1351034144
-s123
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch.pth
-t1351034149
-s4717268
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch.pth
-t1351034149
-s4717128
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app
-t1351052954
-s748
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app.dSYM
-t1351052954
-s102
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Capture.bundle
-t1351034186
-s748
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers
-t1351052954
-s1174640
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cordova.plist
-t1351052616
-s832
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default-568h@2x.png
-t1351035134
-s7014
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default@2x~iphone.png
-t1351034190
-s329629
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default~iphone.png
-t1351034186
-s100469
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Info.plist
-t1351034145
-s1304
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/MainViewController.nib
-t1351034186
-s822
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/PkgInfo
-t1351034145
-s8
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/ResourceRules.plist
-t1351034145
-s150
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/de.lproj/Localizable.strings
-t1351034185
-s256
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/embedded.mobileprovision
-t1351034190
-s7406
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/InfoPlist.strings
-t1351034185
-s42
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/Localizable.strings
-t1351034185
-s142
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/es.lproj/Localizable.strings
-t1351034185
-s308
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon-72.png
-t1351034186
-s8045
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon.png
-t1351034185
-s5977
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon@2x.png
-t1351034186
-s13012
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/se.lproj/Localizable.strings
-t1351034185
-s259
-
-N/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/www
-t1351052954
-s170
-
-N/Users/skynet/Documents/CheersMain/www
-c0000000050876E9600000000000000AA
-t1351052950
-s170
-
-N/Users/skynet/Library/MobileDevice/Provisioning Profiles/10BC7032-29AD-4617-8DB9-DAAE3FC2E04F.mobileprovision
-c000000005083BEDE0000000000001CEE
-t1350811358
-s7406
-
-NCheers/Cheers-Info.plist
-c000000005087249900000000000009CA
-t1351034009
-s2506
-
-CBuild AST from /Users/skynet/Documents/CheersMain/Cheers/BumpApi.m
-r0
-
-CBuild AST from /Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m
-r0
-
-CBuild AST from /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m
-r0
-
-CBuild AST from /Users/skynet/Documents/CheersMain/Cheers/Plugins/Cheers.m
-r0
-
-CBuild AST from /Users/skynet/Documents/CheersMain/Cheers/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies776a96b0a637b641^6ceeacb0a637b641^-118"warning: no rule to process file '$(PROJECT_DIR)/www/BumpApi.js' of type sourcecode.javascript for architecture armv71(21%IDEActivityLogMessage2@117"Warning: no rule to process file '$(PROJECT_DIR)/www/BumpApi.js' of type sourcecode.javascript for architecture armv7-372745904#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"D73A845E-3547-4E28-8BCC-2AD209E3B962-
-
-CCodeSign /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app
-s372745904.882351
-e372745905.384865
-r1
-xCodeSign
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app
-o/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app: replacing existing signature
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"CodeSign DerivedData/Build/Products/Debug-iphoneos/Cheers.appf0f9e1b0a637b641^ca8962b1a637b641^-117"/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/0000000000000000^855"CodeSign DerivedData/Build/Products/Debug-iphoneos/Cheers.app    cd /Users/skynet/Documents/CheersMain    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 837af725387475166a7c50f6d2e8f7e9f6abbd7f --resource-rules=/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/ResourceRules.plist --entitlements /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.xcent /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app36"8C46338F-0624-489F-8B9F-021EB9E94F2D-
-
-CCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/AppDelegate.o /Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372726949.906505
-e372726950.208740
-r1
-xCompileC
-xDerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/AppDelegate.o
-x/Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m8c31e8a55c37b641^1e7035a65c37b641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m0000000000000000^3155"CompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/AppDelegate.o Cheers/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -include /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/AppDelegate.dia -c /Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/AppDelegate.o36"26D9A2EF-596D-444E-A65A-8DAE33D75549-
-
-CCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/BumpApi-F7B7556AFCC154B.o /Users/skynet/Documents/CheersMain/Cheers/BumpApi.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372745357.988900
-e372745358.783327
-r1
-xCompileC
-xDerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/BumpApi-F7B7556AFCC154B.o
-x/Users/skynet/Documents/CheersMain/Cheers/BumpApi.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/skynet/Documents/CheersMain/Cheers/BumpApi.mbb48fd8da437b641^ea97c88ea437b641^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/skynet/Documents/CheersMain/Cheers/BumpApi.m0000000000000000^3179"CompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/BumpApi-F7B7556AFCC154B.o Cheers/BumpApi.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -include /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/BumpApi-F7B7556AFCC154B.d --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/BumpApi-F7B7556AFCC154B.dia -c /Users/skynet/Documents/CheersMain/Cheers/BumpApi.m -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/BumpApi-F7B7556AFCC154B.o36"F5656685-4DF1-481D-A90D-9E19AADFAF25-
-
-CCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.o /Users/skynet/Documents/CheersMain/Cheers/Plugins/Cheers.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372745639.318511
-e372745639.409403
-r1
-xCompileC
-xDerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.o
-x/Users/skynet/Documents/CheersMain/Cheers/Plugins/Cheers.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/skynet/Documents/CheersMain/Cheers/Plugins/Cheers.m19ab51a7a537b641^943269a7a537b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Plugins/Cheers.m0000000000000000^3125"CompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.o Cheers/Plugins/Cheers.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -include /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.d --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.dia -c /Users/skynet/Documents/CheersMain/Cheers/Plugins/Cheers.m -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.o36"0F959926-6D0A-43EB-ABD3-06248D4896CA-
-
-CCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/MainViewController.o /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372726950.210003
-e372726950.307107
-r1
-xCompileC
-xDerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/MainViewController.o
-x/Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.md2e135a65c37b641^1b9e4ea65c37b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m0000000000000000^3197"CompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/MainViewController.o Cheers/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -include /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/MainViewController.dia -c /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/MainViewController.o36"A829EF8B-5DBC-4FAB-920C-EE645854E8E3-
-
-CCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/main.o /Users/skynet/Documents/CheersMain/Cheers/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372726949.874314
-e372726949.905299
-r1
-xCompileC
-xDerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/main.o
-x/Users/skynet/Documents/CheersMain/Cheers/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/skynet/Documents/CheersMain/Cheers/main.m90f6dfa55c37b641^cec1e7a55c37b641^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/skynet/Documents/CheersMain/Cheers/main.m0000000000000000^3097"CompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/main.o Cheers/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -include /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/main.dia -c /Users/skynet/Documents/CheersMain/Cheers/main.m -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/main.o36"3754FC06-15E4-4E36-BFDF-0C937720B2B4-
-
-CCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/AppDelegate.o /Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372726950.308488
-e372726950.409719
-r1
-xCompileC
-xDerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/AppDelegate.o
-x/Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.mc4214fa65c37b641^73f468a65c37b641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m0000000000000000^3162"CompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/AppDelegate.o Cheers/Classes/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7s -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -include /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/skynet/Documents/CheersMain/Cheers/Classes/AppDelegate.m -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/AppDelegate.o36"55428CC2-6ADB-42AE-AC68-501F53079038-
-
-CCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/MainViewController.o /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372726952.954724
-e372726953.030665
-r1
-xCompileC
-xDerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/MainViewController.o
-x/Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m3b89f4a85c37b641^a9d907a95c37b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m0000000000000000^3204"CompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/MainViewController.o Cheers/Classes/MainViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7s -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -include /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/MainViewController.d --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/MainViewController.dia -c /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.m -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/MainViewController.o36"BA290F17-FC7D-447A-9B3C-EA22FB91E9D7-
-
-CCompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/main.o /Users/skynet/Documents/CheersMain/Cheers/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372726949.311091
-e372726949.873029
-r1
-xCompileC
-xDerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/main.o
-x/Users/skynet/Documents/CheersMain/Cheers/main.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/skynet/Documents/CheersMain/Cheers/main.meecd4fa55c37b641^067fdfa55c37b641^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/skynet/Documents/CheersMain/Cheers/main.m0000000000000000^3104"CompileC DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/main.o Cheers/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7s -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -include /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/main.dia -c /Users/skynet/Documents/CheersMain/Cheers/main.m -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/main.o36"5AC2038F-102A-4310-ABA6-BED8097E1FB1-
-
-CCompileXIB /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.xib
-s372726986.575086
-e372726986.735141
-r1
-xCompileXIB
-x/Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compiling /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.xib984e93ca5c37b641^1b4bbcca5c37b641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.xib0000000000000000^848"CompileXIB Cheers/Classes/MainViewController.xib    cd /Users/skynet/Documents/CheersMain    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/MainViewController.nib /Users/skynet/Documents/CheersMain/Cheers/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"C6E116BB-5576-4F5F-A555-D9FBFA6EACDA-
-
-CCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default-568h@2x.png Default-568h@2x.png
-s372727933.784019
-e372727934.288683
-r1
-xCopyPNGFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default-568h@2x.png
-xDefault-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default-568h@2x.png Default-568h@2x.pngc0cfcc7d6037b641^af274a7e6037b641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/skynet/Documents/CheersMain/Default-568h@2x.png0000000000000000^620"CopyPNGFile "DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default-568h@2x.png" "Default-568h@2x.png"    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/skynet/Documents/CheersMain/Default-568h@2x.png" "/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default-568h@2x.png"36"F729678B-D178-4E7E-AE00-A38FFE0CCB18-
-
-CCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default@2x~iphone.png Cheers/Resources/splash/Default@2x~iphone.png
-s372726986.050529
-e372726990.513615
-r1
-xCopyPNGFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default@2x~iphone.png
-xCheers/Resources/splash/Default@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default@2x~iphone.png Cheers/Resources/splash/Default@2x~iphone.pngf3050dca5c37b641^aa7c83ce5c37b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Resources/splash/Default@2x~iphone.png0000000000000000^676"CopyPNGFile "DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default@2x~iphone.png" "Cheers/Resources/splash/Default@2x~iphone.png"    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/skynet/Documents/CheersMain/Cheers/Resources/splash/Default@2x~iphone.png" "/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default@2x~iphone.png"36"37BF3090-7F8B-4F52-A8CB-0924A58107E8-
-
-CCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default~iphone.png Cheers/Resources/splash/Default~iphone.png
-s372726986.026620
-e372726986.492851
-r1
-xCopyPNGFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default~iphone.png
-xCheers/Resources/splash/Default~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default~iphone.png Cheers/Resources/splash/Default~iphone.pnge1ec06ca5c37b641^232c7eca5c37b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Resources/splash/Default~iphone.png0000000000000000^664"CopyPNGFile "DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default~iphone.png" "Cheers/Resources/splash/Default~iphone.png"    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/skynet/Documents/CheersMain/Cheers/Resources/splash/Default~iphone.png" "/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Default~iphone.png"36"1BC58708-D412-4AE4-947C-67ED48172931-
-
-CCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon-72.png Cheers/Resources/icons/icon-72.png
-s372726985.971057
-e372726986.049253
-r1
-xCopyPNGFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon-72.png
-xCheers/Resources/icons/icon-72.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon-72.png Cheers/Resources/icons/icon-72.png5bb0f8c95c37b641^6cb40cca5c37b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Resources/icons/icon-72.png0000000000000000^626"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon-72.png Cheers/Resources/icons/icon-72.png    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/skynet/Documents/CheersMain/Cheers/Resources/icons/icon-72.png /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon-72.png36"A0EBD1A7-C714-461A-8EE5-D9E9FDFF9095-
-
-CCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon.png Cheers/Resources/icons/icon.png
-s372726985.634601
-e372726985.969716
-r1
-xCopyPNGFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon.png
-xCheers/Resources/icons/icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon.png Cheers/Resources/icons/icon.png53b4a2c95c37b641^494cf8c95c37b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Resources/icons/icon.png0000000000000000^614"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon.png Cheers/Resources/icons/icon.png    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/skynet/Documents/CheersMain/Cheers/Resources/icons/icon.png /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon.png36"FED5EF3F-2271-4DA6-B653-67D41B978CCB-
-
-CCopyPNGFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon@2x.png Cheers/Resources/icons/icon@2x.png
-s372726985.635500
-e372726986.025237
-r1
-xCopyPNGFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon@2x.png
-xCheers/Resources/icons/icon@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon@2x.png Cheers/Resources/icons/icon@2x.pngf9c0a2c95c37b641^e67706ca5c37b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Resources/icons/icon@2x.png0000000000000000^634"CopyPNGFile "DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon@2x.png" "Cheers/Resources/icons/icon@2x.png"    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/skynet/Documents/CheersMain/Cheers/Resources/icons/icon@2x.png" "/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/icon@2x.png"36"978FB3D7-FBCB-4ADD-8BCA-442A4F3ED1B9-
-
-CCopyPlistFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cordova.plist Cheers/Cordova.plist
-s372745416.043190
-e372745416.046613
-r1
-xCopyPlistFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cordova.plist
-xCheers/Cordova.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Copy Cheers/Cordova.plist92210bc8a437b641^9eef0bc8a437b641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Cordova.plist0000000000000000^493"CopyPlistFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cordova.plist Cheers/Cordova.plist    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app -- Cheers/Cordova.plist36"1FBAD64A-077A-48BF-A8C7-7A1DCF42AEE2-
-
-CCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/de.lproj/Localizable.strings Cheers/Resources/de.lproj/Localizable.strings
-s372726985.609225
-e372726985.623631
-r1
-xCopyStringsFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/de.lproj/Localizable.strings
-xCheers/Resources/de.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Cheers/Resources/de.lproj/Localizable.strings90119cc95c37b641^1fbb9fc95c37b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Resources/de.lproj/Localizable.strings0000000000000000^610"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/de.lproj/Localizable.strings Cheers/Resources/de.lproj/Localizable.strings    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/de.lproj -- Cheers/Resources/de.lproj/Localizable.strings36"111B29F8-3770-41A8-AB09-545EE0D700B7-
-
-CCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/InfoPlist.strings Cheers/en.lproj/InfoPlist.strings
-s372726985.557365
-e372726985.606448
-r1
-xCopyStringsFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/InfoPlist.strings
-xCheers/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy Cheers/en.lproj/InfoPlist.strings7dcd8ec95c37b641^37559bc95c37b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/skynet/Documents/CheersMain/Cheers/en.lproj/InfoPlist.strings0000000000000000^584"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/InfoPlist.strings Cheers/en.lproj/InfoPlist.strings    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj -- Cheers/en.lproj/InfoPlist.strings36"2A55FA73-B606-4855-B4D6-2AAF4EC04D5D-
-
-CCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/Localizable.strings Cheers/Resources/en.lproj/Localizable.strings
-s372726985.557439
-e372726985.606632
-r1
-xCopyStringsFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/Localizable.strings
-xCheers/Resources/en.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Cheers/Resources/en.lproj/Localizable.strings7cd18ec95c37b641^8a599bc95c37b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Resources/en.lproj/Localizable.strings0000000000000000^610"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj/Localizable.strings Cheers/Resources/en.lproj/Localizable.strings    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/en.lproj -- Cheers/Resources/en.lproj/Localizable.strings36"841AA727-1FC3-43EC-94D5-5E0A31C529FB-
-
-CCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/es.lproj/Localizable.strings Cheers/Resources/es.lproj/Localizable.strings
-s372726985.608074
-e372726985.613723
-r1
-xCopyStringsFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/es.lproj/Localizable.strings
-xCheers/Resources/es.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Cheers/Resources/es.lproj/Localizable.strings55c29bc95c37b641^9f3a9ec95c37b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Resources/es.lproj/Localizable.strings0000000000000000^610"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/es.lproj/Localizable.strings Cheers/Resources/es.lproj/Localizable.strings    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/es.lproj -- Cheers/Resources/es.lproj/Localizable.strings36"AEF6F478-A69E-4409-A7E5-41243EA2BC96-
-
-CCopyStringsFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/se.lproj/Localizable.strings Cheers/Resources/se.lproj/Localizable.strings
-s372726985.615110
-e372726985.623964
-r1
-xCopyStringsFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/se.lproj/Localizable.strings
-xCheers/Resources/se.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Cheers/Resources/se.lproj/Localizable.strings19909dc95c37b641^adc19fc95c37b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Resources/se.lproj/Localizable.strings0000000000000000^610"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/se.lproj/Localizable.strings Cheers/Resources/se.lproj/Localizable.strings    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/se.lproj -- Cheers/Resources/se.lproj/Localizable.strings36"ED3A9F60-ED93-446A-9B83-1FD992A84936-
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/Cheers.app/ResourceRules.plist
-s372726945.066479
-e372726945.252829
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
-xDerivedData/Build/Products/Debug-iphoneos/Cheers.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy DerivedData/Build/Products/Debug-iphoneos/Cheers.app/ResourceRules.plist2b3311a15c37b641^10c940a15c37b641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/ResourceRules.plist000000000080d041^758"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/Cheers.app/ResourceRules.plist    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app36"9401DA3B-EE1E-4762-AB2A-68665D369151-
-
-CCpResource Cheers/Resources/Capture.bundle DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Capture.bundle
-s372726986.494248
-e372726986.543075
-r1
-xCpResource
-xCheers/Resources/Capture.bundle
-xDerivedData/Build/Products/Debug-iphoneos/Cheers.app/Capture.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Capture.bundle179b7eca5c37b641^25088bca5c37b641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Capture.bundle000000000080d041^608"CpResource Cheers/Resources/Capture.bundle DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Capture.bundle    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/skynet/Documents/CheersMain/Cheers/Resources/Capture.bundle /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app36"B6620B94-7D21-4F7A-9C47-BBA13EEE5C68-
-
-CCpResource www DerivedData/Build/Products/Debug-iphoneos/Cheers.app/www
-s372745754.525768
-e372745754.529668
-r1
-xCpResource
-xwww
-xDerivedData/Build/Products/Debug-iphoneos/Cheers.app/www
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy DerivedData/Build/Products/Debug-iphoneos/Cheers.app/www36ab861aa637b641^5f99871aa637b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/www/0000000000000000^541"CpResource www DerivedData/Build/Products/Debug-iphoneos/Cheers.app/www    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/skynet/Documents/CheersMain/www /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app36"D79EE41F-0842-4B4D-9240-EBB44CAD0E8C-
-
-CCreateUniversalBinary /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers normal "armv7 armv7s"
-r0
-
-CGenerateDSYMFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app.dSYM /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers
-s372745754.537700
-e372745754.601690
-r1
-xGenerateDSYMFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app.dSYM
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers
-owarning: (armv7) /Users/skynet/Documents/libBump/libBump.a(boss.pb-c.o) object file doesn't contain DWARF debug information
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Generating /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app.dSYM6abf891aa637b641^b01f9a1aa637b641^--1(21%IDEActivityLogMessage2@123"warning: (armv7) /Users/skynet/Documents/libBump/libBump.a(boss.pb-c.o) object file doesn't contain DWARF debug information8"Warning:372745754#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Dsymutil Warning--0#0#0#-19%DVTDocumentLocation4@109"file://localhost/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app.dSYM/0000000000000000^656"GenerateDSYMFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app.dSYM DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app.dSYM36"22868CDC-4DF1-47C5-A9CF-C7094BA6AD1D-
-
-CLd /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers normal armv7
-s372726950.411164
-e372726952.953406
-r1
-xLd
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Link /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers4d6969a65c37b641^9d12f4a85c37b641^---0#0#0#--1580"Ld DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers normal armv7    cd /Users/skynet/Documents/CheersMain    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -filelist /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.LinkFileList -dead_strip -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -fobjc-link-runtime -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -framework CoreMedia -framework Cordova -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers36"4E688C47-9BA7-4588-A856-542DAF03D6A3-
-
-CLd /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/Cheers normal armv7s
-s372726953.037436
-e372726953.330145
-r0
-xLd
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/Cheers
-xnormal
-xarmv7s
-old: file is universal (3 slices) but does not contain a(n) armv7s slice: /Users/Shared/Cordova/Frameworks/Cordova.framework/Cordova for architecture armv7s
-oclang: error: linker command failed with exit code 1 (use -v to see invocation)
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Link /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/Cheersb4ae09a95c37b641^c78054a95c37b641^-236"ld: file is universal (3 slices) but does not contain a(n) armv7s slice: /Users/Shared/Cordova/Frameworks/Cordova.framework/Cordova for architecture armv7sclang: error: linker command failed with exit code 1 (use -v to see invocation)2(21%IDEActivityLogMessage2@151"File is universal (3 slices) but does not contain a(n) armv7s slice: /Users/Shared/Cordova/Frameworks/Cordova.framework/Cordova for architecture armv7s-372726953#0#156#-0#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-372726953#156#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#0#--1585"Ld DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/Cheers normal armv7s    cd /Users/skynet/Documents/CheersMain    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -filelist /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/Cheers.LinkFileList -dead_strip -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -fobjc-link-runtime -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -framework CoreMedia -framework Cordova -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7s/Cheers36"ED72C996-3618-4DF0-B95D-2704420C444E-
-
-CLd /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers normal armv7
-s372745639.431120
-e372745639.618154
-r1
-xLd
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Link /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers137d6ea7a537b641^31409ea7a537b641^---0#0#0#--1574"Ld DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers normal armv7    cd /Users/skynet/Documents/CheersMain    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -L/Users/skynet/Documents/CheersMain/../libBump -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks -filelist /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.LinkFileList -dead_strip -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -fobjc-link-runtime -miphoneos-version-min=3.0 -framework CFNetwork -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -framework AVFoundation -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -framework CoreMedia -framework Cordova -lBump -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Cheers36"16B209EE-CADA-4685-98E9-AB485F3B46AF-
-
-CPhaseScriptExecution "Run Script" /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Script-3008EF731592A3BF000B2E69.sh
-s372745904.744567
-e372745904.819891
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Script-3008EF731592A3BF000B2E69.sh
-o		3008EFD01592A3E2000B2E69 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'4608c3b0a637b641^86e8d8b0a637b641^-131"		3008EFD01592A3E2000B2E69 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };1(21%IDEActivityLogMessage2@131"		3008EFD01592A3E2000B2E69 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };-372745904#0#131#-0#-----0#0#0#--20843"PhaseScriptExecution "Run Script" DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Script-3008EF731592A3BF000B2E69.sh    cd /Users/skynet/Documents/CheersMain    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER skynet    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Products    setenv BUILD_ROOT /Users/skynet/Documents/CheersMain/DerivedData/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos    setenv CACHE_ROOT /var/folders/24/q5pwg6ys07x_1kqypswyhdp80000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/24/q5pwg6ys07x_1kqypswyhdp80000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/24/q5pwg6ys07x_1kqypswyhdp80000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH Cheers.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/skynet/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Cheers.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Cheers.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Cheers.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Cheers.app/Executables    setenv EXECUTABLE_FOLDER_PATH Cheers.app    setenv EXECUTABLE_NAME Cheers    setenv EXECUTABLE_PATH Cheers.app/Cheers    setenv FILE_LIST /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Cheers.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos\" /Users/Shared/Cordova/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Cheers.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Cheers/Cheers-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1, CORDOVA_FRAMEWORK=1"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include\"  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Cheers/Cheers-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Cheers.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Cheers.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Cheers.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER skynet    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Cheers.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Cheers.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos\"  \"/Users/skynet/Documents/CheersMain/../libBump\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal/armv7/Cheers.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Cheers.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63    setenv MAC_OS_X_VERSION_ACTUAL 1075    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0705    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Objects-normal    setenv OBJROOT /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Cheers.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/PkgInfo    setenv PKGINFO_PATH Cheers.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH armv7    setenv PLATFORM_PRODUCT_BUILD_VERSION 10A403    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Cheers.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Cheers.app/PrivateHeaders    setenv PRODUCT_NAME Cheers    setenv PRODUCT_SETTINGS_PATH /Users/skynet/Documents/CheersMain/Cheers/Cheers-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Cheers    setenv PROJECT_DERIVED_FILE_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/DerivedSources    setenv PROJECT_DIR /Users/skynet/Documents/CheersMain    setenv PROJECT_FILE_PATH /Users/skynet/Documents/CheersMain/Cheers.xcodeproj    setenv PROJECT_NAME Cheers    setenv PROJECT_TEMP_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH Cheers.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Cheers.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk    setenv SDK_NAME iphoneos6.0    setenv SDK_PRODUCT_BUILD_VERSION 10A403    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Cheers.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Cheers.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/skynet/Documents/CheersMain    setenv SRCROOT /Users/skynet/Documents/CheersMain    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/skynet/Documents/CheersMain/DerivedData/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Cheers    setenv TARGET_BUILD_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos    setenv TARGET_NAME Cheers    setenv TARGET_TEMP_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build    setenv TEMP_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build    setenv TEMP_FILES_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build    setenv TEMP_FILE_DIR /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build    setenv TEMP_ROOT /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Cheers.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER skynet    setenv USER_APPS_DIR /Users/skynet/Applications    setenv USER_LIBRARY_DIR /Users/skynet/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS armv7    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Cheers.app/version.plist    setenv VERSION_INFO_BUILDER skynet    setenv VERSION_INFO_FILE Cheers_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Cheers  PROJECT:Cheers-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Cheers.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4G1004    setenv XCODE_VERSION_ACTUAL 0451    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    setenv YACC yacc    /bin/sh -c /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Script-3008EF731592A3BF000B2E69.sh36"27007B19-78C7-40D7-A472-B0755E7C6E8B-
-
-CProcessInfoPlistFile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Info.plist Cheers/Cheers-Info.plist
-s372726945.067581
-e372726945.618967
-r1
-xProcessInfoPlistFile
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Info.plist
-xCheers/Cheers-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process Cheers/Cheers-Info.plist9b7211a15c37b641^01899ea15c37b641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Cheers-Info.plist0000000000000000^786"ProcessInfoPlistFile DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Info.plist Cheers/Cheers-Info.plist    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Cheers/Cheers-Info.plist -genpkginfo /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/ResourceRules.plist -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/Info.plist36"EAC223B2-43EC-4634-BCCC-3370379CF9D0-
-
-CProcessPCH /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch.pth Cheers/Cheers-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372726945.627640
-e372726949.301928
-r1
-xProcessPCH
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch.pth
-xCheers/Cheers-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Cheers/Cheers-Prefix.pchc0cba0a15c37b641^fe5f4da55c37b641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Cheers-Prefix.pch0000000000000000^3031"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch.pth Cheers/Cheers-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7s -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch.dia -c /Users/skynet/Documents/CheersMain/Cheers/Cheers-Prefix.pch -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch.pth -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-bfdocxeyzdzlupegsrqupqflimwn/Cheers-Prefix.pch.d36"D3F133B4-B65D-4402-B314-3A0E47021D83-
-
-CProcessPCH /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch.pth Cheers/Cheers-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s372726945.627062
-e372726949.639943
-r1
-xProcessPCH
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch.pth
-xCheers/Cheers-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Cheers/Cheers-Prefix.pchafb0a0a15c37b641^7f32baa55c37b641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/skynet/Documents/CheersMain/Cheers/Cheers-Prefix.pch0000000000000000^3028"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch.pth Cheers/Cheers-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/skynet/Documents/CheersMain    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1, -DCORDOVA_FRAMEWORK=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.hmap -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources/armv7 -I/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/DerivedSources -F/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos -F/Users/Shared/Cordova/Frameworks --serialize-diagnostics /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch.dia -c /Users/skynet/Documents/CheersMain/Cheers/Cheers-Prefix.pch -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch.pth -MMD -MT dependencies -MF /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/PrecompiledHeaders/Cheers-Prefix-chprzlokptfmfsdbfxdutjsbgvva/Cheers-Prefix.pch.d36"0684A977-3564-4885-8DAB-85643581426B-
-
-CProcessPCH /Users/skynet/Documents/CheersMain/DerivedData/Cheers/Index/PrecompiledHeaders/Cheers-Prefix-etonecejgfsnpleycwjnutsynqfm_ast/Cheers-Prefix.pch.pth Cheers/Cheers-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/skynet/Documents/CheersMain/DerivedData/Cheers/Index/PrecompiledHeaders/Cheers-Prefix-hbdspjxxrlxvjqcmqvuncdntpvbh_ast/Cheers-Prefix.pch.pth Cheers/Cheers-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessProductPackaging "/Users/skynet/Library/MobileDevice/Provisioning Profiles/10BC7032-29AD-4617-8DB9-DAAE3FC2E04F.mobileprovision" /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/embedded.mobileprovision
-s372726990.717425
-e372726990.720827
-r1
-xProcessProductPackaging
-x/Users/skynet/Library/MobileDevice/Provisioning Profiles/10BC7032-29AD-4617-8DB9-DAAE3FC2E04F.mobileprovision
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"ProcessProductPackaging "/Users/skynet/Library/MobileDevice/Provisioning Profiles/10BC7032-29AD-4617-8DB9-DAAE3FC2E04F.mobileprovision" DerivedData/Build/Products/Debug-iphoneos/Cheers.app/embedded.mobileprovision9dbdb7ce5c37b641^fd87b8ce5c37b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/embedded.mobileprovision0000000000000000^708"ProcessProductPackaging "/Users/skynet/Library/MobileDevice/Provisioning Profiles/10BC7032-29AD-4617-8DB9-DAAE3FC2E04F.mobileprovision" DerivedData/Build/Products/Debug-iphoneos/Cheers.app/embedded.mobileprovision    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/skynet/Library/MobileDevice/Provisioning Profiles/10BC7032-29AD-4617-8DB9-DAAE3FC2E04F.mobileprovision" -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app/embedded.mobileprovision36"22D43C01-8A8D-4A4B-9462-F920DB41CF20-
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.xcent
-s372726990.776389
-e372726990.794594
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection230"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.xcent12dac6ce5c37b641^c66acbce5c37b641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.xcent000000000080d041^768"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.xcent    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/skynet/Documents/CheersMain/DerivedData/Build/Intermediates/Cheers.build/Debug-iphoneos/Cheers.build/Cheers.xcent36"D3FE7B6A-A335-4CBF-B1CE-A3EB1D9258E1-
-
-CTouch /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app
-s372745754.657968
-e372745754.663248
-r1
-xTouch
-x/Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app6b82a81aa637b641^cdcba91aa637b641^---0#0#0#--399"Touch DerivedData/Build/Products/Debug-iphoneos/Cheers.app    cd /Users/skynet/Documents/CheersMain    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/skynet/Documents/CheersMain/DerivedData/Build/Products/Debug-iphoneos/Cheers.app36"47599CFF-9A47-45CD-A635-1F93D2FB9640-
-

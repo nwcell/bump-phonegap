@@ -1,72 +1,42 @@
-<!DOCTYPE html>
-<html>
-    <!--
-     #
-     # Licensed to the Apache Software Foundation (ASF) under one
-     # or more contributor license agreements.  See the NOTICE file
-     # distributed with this work for additional information
-     # regarding copyright ownership.  The ASF licenses this file
-     # to you under the Apache License, Version 2.0 (the
-     # "License"); you may not use this file except in compliance
-     # with the License.  You may obtain a copy of the License at
-     #
-     # http://www.apache.org/licenses/LICENSE-2.0
-     #
-     # Unless required by applicable law or agreed to in writing,
-     # software distributed under the License is distributed on an
-     # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     #  KIND, either express or implied.  See the License for the
-     # specific language governing permissions and limitations
-     # under the License.
-     #
-     -->
-    <head>
-        <title></title>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
-        <meta charset="utf-8">
-            
-            
-            <!-- iPad/iPhone specific css below, add after your main css >
-             <link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />
-             <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />
-             -->
-            <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
-            
-            <script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
-            <script type="text/javascript">
-                function onBodyLoad()
-                {
-                    document.addEventListener("deviceready", onDeviceReady, false);
-                }
-                
-                function onDeviceReady()
-                {
-                    window.cheers("data", "cheers", function(echoValue) {
-                                  //alert(echoValue); // should alert true.
-                                  });
-                    
-                    
-                    
-                }
-                
-                window.cheers = function(str,action, callback) {
-                    cordova.exec(callback, function(err) {
-                                 callback('Nothing to echo.');
-                                 }, "Cheers", action, [str]);
-                };
-                
-                
-                
-                function updateContent( data ) {
-                    
-                    document.getElementById( "output" ).innerHTML = data+ '<br>'+document.getElementById( "output" ).innerHTML +'<BR>';
-                }
-                
-                </script>
-            </head>
-    <body onload="onBodyLoad()">
-        
-        <div id="output">waiting for connection...</div>
-    </body>
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Cheers</title>
+    <script src="cordova-2.2.0.js"></script>
+    <script src="bump.js"></script> 
+    <script>
+    document.addEventListener('deviceready', function() {
+
+        var USER_ID = "5";
+        result=  window.bump(USER_ID, function(result) {
+                        alert('bump init');
+                            window.bumpable('NO', function(result) {
+                            console.log('bumpable set to no');
+                        });
+                  });
+
+
+    }, false);
+
+
+    if ((typeof cordova == 'undefined') && (typeof Cordova == 'undefined')) alert('Cordova variable does not exist.');
+
+    function showOutput(text){
+        //alert(text);
+       // var Output = document.getElementById("result");
+       // Output.innerHTML = Output.innerHTML +'<br>'+text;
+    }
+    
+     
+    </script>        
+</head>
+<body>
+<input type="button" value="Bumpable" onclick="Bumpable()">
+<input type="button" value="Not Bumpable" onclick="NotBumpable()">     
+<br><br>
+Output<br>
+<div id="result"></div>
+    
+</body>
 </html>
