@@ -20,7 +20,7 @@ window.bumpable = function(str, callback) {
  
 /*
  Receives Data when a bump is match. Data received is the user_id of the other user.
- Check Plugin/ios/Bump.m 
+ Check Plugin/Bump.m 
  */
 function matchResult(data){
     //alert(data);

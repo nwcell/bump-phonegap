@@ -283,7 +283,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				D300AD24164BFF000047A6CD /* ios */,
+				D300AD47164C03140047A6CD /* Bump.h */,
+				D300AD48164C03140047A6CD /* Bump.m */,
 			);
 			name = Plugins;
 			path = Cheers/Plugins;
@@ -327,15 +328,6 @@
 				30A0434614DC770100060A13 /* Localizable.strings */,
 			);
 			path = se.lproj;
-			sourceTree = "<group>";
-		};
-		D300AD24164BFF000047A6CD /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				D300AD47164C03140047A6CD /* Bump.h */,
-				D300AD48164C03140047A6CD /* Bump.m */,
-			);
-			path = ios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
