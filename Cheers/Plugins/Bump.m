@@ -22,8 +22,8 @@
         //auto confirm
         [[BumpClient sharedClient] confirmMatch:YES onChannel:channel];
         
-        //send to javascript
-        NSString *js = [NSString stringWithFormat:@"callBack( '%@' );", [[BumpClient sharedClient] userIDForChannel:channel]];
+        //send Bump with USER_ID, to javascript
+        NSString *js = [NSString stringWithFormat:@"matchResult( '%@' );", [[BumpClient sharedClient] userIDForChannel:channel]];
         [self writeJavascript:js];
         
         NSLog(@"matched!");
