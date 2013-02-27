@@ -7,7 +7,7 @@ Bump nicely wrapped into phonegap.  Should work out of the box.  You will need a
 How to use
 
 1. Update the API key with your own  file Plugins/Ios/bump.m
-3. To be able to run this in a real device update the Bundle Identifier with your own.
+3. To be able to run this in a real device update the Bundle Identifier with your own and make sure you have the proper provisioning certifacte.
 
 
 
