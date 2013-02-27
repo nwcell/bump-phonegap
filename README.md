@@ -11,6 +11,6 @@ How to use
 
 
 
-Some know problem. 
+Some known problem. 
 
 1. When run in a real device sometimes it takes time to connect to bump server, you can try running first it in the emulator
