@@ -8,7 +8,14 @@
     <script>
     document.addEventListener('deviceready', function() {
 
+        /*
+        This ID is specific to your system, you can pass this to BUMP, when bumping with other users
+        */
         var USER_ID = "5";
+                              
+        /*
+        initializes bump
+        */
         result=  window.bump(USER_ID, function(result) {
                         alert('bump init');
                           
@@ -20,22 +27,18 @@
 
     if ((typeof cordova == 'undefined') && (typeof Cordova == 'undefined')) alert('Cordova variable does not exist.');
 
-    function showOutput(text){
-        //alert(text);
-       // var Output = document.getElementById("result");
-       // Output.innerHTML = Output.innerHTML +'<br>'+text;
-    }
     
+        
         function Bumpable(){
             window.bumpable('YES', function(result) {
-                            console.log('bumpable set to YES');
+                            alert('bumpable set to YES');
                             });
             
         }
         
         function NotBumpable(){
             window.bumpable('NO', function(result) {
-                            console.log('bumpable set to NO');
+                            alert('bumpable set to NO');
                             });
         }
     </script>        
@@ -43,9 +46,10 @@
 <body>
 <input type="button" value="Bumpable" onclick="Bumpable()">
 <input type="button" value="Not Bumpable" onclick="NotBumpable()">     
-<br><br>
-Output<br>
-<div id="result"></div>
+ 
+<div id="result">
+waiting for connection...
+</div>
     
 </body>
 </html>
